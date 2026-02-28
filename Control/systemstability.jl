@@ -52,6 +52,7 @@ hline!(p2, [K_dc],
     label     = "K = $(round(K_dc, digits=3))",
     color     = :orange)
 
+
 fig = plot(p1, p2,
     layout      = (1, 2),
     size        = (1200, 520),
