@@ -3,7 +3,7 @@ using Plots
 using Plots.Measures
 
 s = tf("s")
-G = 1 / (2*s^2 + 3*s + 1)   #Transfer Function defined here. and I can just change this part 
+G = 1 / (2*s^2 + 3*s + 1)   #Transfer Function defined here. and I can just change this part
 
 sys_poles = poles(G)
 sys_zeros = tzeros(G)
