@@ -31,7 +31,6 @@ const C_qb = -S_y / I_xx    # shear flow coefficient
 
 @printf("  I_xx = Σ(B_r·y_r²) = %.4e mm^4\n", I_xx)
 @printf("  C_qb = -S_y/I_xx   = %.6e\n", C_qb)
-@printf("  Textbook reference : 214.3 × 10^6 mm^4\n")
 
 const d_16 = 254.0 / 1.625    # = 156.3
 const d_25 = 406.0 / 2.032    # = 199.8  (shared web)
