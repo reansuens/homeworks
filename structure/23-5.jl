@@ -2,9 +2,6 @@ using Printf
 using LinearAlgebra
 
 println("=" ^ 64)
-println("  INIT: P.23.5 TWO-CELL WING BOX SHEAR FLOW SOLVER")
-println("  PROTOCOL: q_b (OPEN) + q_s,0 (CLOSED CORRECTION) | 3x3")
-println("=" ^ 64)
 const S_y  = 44_500.0
 const A_I  = 232_000.0    # Cell I enclosed area [mm²]
 const A_II = 258_000.0    # Cell II enclosed area [mm²]
