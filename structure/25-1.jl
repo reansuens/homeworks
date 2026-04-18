@@ -76,6 +76,7 @@ println()
 ε_trans_polyester = polyester.ν * ε
 ε_trans_kevlar = kevlar.ν * ε
 
+
 Δt_total = sum(
     layers[i].thickness * (layers[i].material === polyester ? ε_trans_polyester : ε_trans_kevlar)
     for i in 1:length(layers)
