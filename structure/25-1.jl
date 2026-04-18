@@ -82,7 +82,6 @@ println()
     for i in 1:length(layers)
 )
 
-
 println("#################")
 println("Thickness increase: Δt = $((round(Δt_total, digits=4))) mm")
 println()
